@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sowrov's Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ffffff);
+      color: #333;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 28px;
+    }
+
+    .profile {
+      max-width: 600px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .profile img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .profile h2 {
+      margin-top: 15px;
+      font-size: 24px;
+    }
+
+    .profile p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .contact {
+      margin-top: 15px;
+      font-size: 17px;
+      color: #007acc;
+      font-weight: bold;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      margin: 5px 10px;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .facebook {
+      background-color: #1877f2;
+    }
+
+    .whatsapp {
+      background-color: #25d366;
+    }
+
+    .buttons a:hover {
+      opacity: 0.8;
+    }
+
+    form {
+      margin-top: 30px;
+      text-align: left;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+
+    form button {
+      background-color: #007acc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    form button:hover {
+      background-color: #005f99;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ddd;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Welcome to Sowrov's Website
+  </header>
+
+  <div class="profile">
+    <img src="https://uploads.onecompiler.io/43nf3b8nx/43nf3kxby/3075.jpg" alt="Sowrov's Photo">
+    <h2>Sowrov</h2>
+    <p>Hi! I'm Sowrov. I enjoy learning, building, and exploring technology.</p>
+    <div class="contact">📞 Contact: 01606672228</div>
+
+    <div class="buttons">
+      <a class="facebook" href="https://www.facebook.com/share/18HrYmE8oo/" target="_blank">Facebook</a>
+      <a class="whatsapp" href="https://wa.me/8801606672228" target="_blank">WhatsApp</a>
+    </div>
+
+    <form>
+      <h3>Contact Me</h3>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy; 2025 Sowrov. All rights reserved.
+  </footer>
+
+</body>
+</html>
