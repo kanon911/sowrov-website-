@@ -31,7 +31,8 @@
 <body>
   <h1>Welcome to Sowrov's Website</h1>
   <p>📞 Contact: 01606672228</p>
-  <p>🔗 <a href="https://www.facebook.com/share/18HrYmE8oo/">Facebook Profile</a></p>
+  <p>🔗 <a href="https://www.facebook.com/share/18HrYmE8oo/">Facebook Profile</a><p>
+  <p>WhatsApp: <a href="https://wa.me/8801606672228" target="_blank">মেসেজ পাঠাও</a></p>
   <img src="https://uploads.onecompiler.io/43nf3b8nx/43nf3kxby/3075.jpg" alt="Sowrov's Photo" />
 </body>
 </html>
